@@ -41,11 +41,6 @@ print(y_train)
 #les valeurs des features ne  presentent pas un large decalage 
 #donc c'est inutile dans ce cas de les standardiser en faisant le feature scalling
 
-from sklearn.preprocessing import StandardScaler
-sc = StandardScaler()
-X_train = sc.fit_transform(X_train)
-X_test  = sc.transform(X_test)
-print(X_train)
 
 #construction du modele de machine learning baser sur la regression ploynomiale
 
